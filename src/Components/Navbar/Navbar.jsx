@@ -78,9 +78,9 @@ const Navbar = () => {
               <a href="">BOOK NOW</a>
             </button>
 
-            <div className="closeNavbar">
+            {/* <div className="closeNavbar">
               <IoIosCloseCircle className="icon" />
-            </div>
+            </div> */}
           </ul>
 
           <div onClick={removeNavbar} className="closeNavbar">

@@ -48,13 +48,13 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     transform: translate(-50%);
     z-index: 2000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-    transition: 3s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
   .header .navBar .navLists {
     flex-direction: column;
@@ -90,11 +90,14 @@
   .header .navBar .closeNavbar:hover {
     color: var(--SecondaryColor);
   }
+  .header .activeNavbar {
+    top: 7rem;
+  }
 }
 .header .toggleNavbar .icon {
   font-size: 25px;
   color: var(--PrimaryColor);
 }
-.header .toggleNavbar:hover {
+.header .toggleNavbar:hover.icon {
   color: var(--SecondaryColor);
 }/*# sourceMappingURL=navbar.css.map */
